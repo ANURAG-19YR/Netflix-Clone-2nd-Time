@@ -1,0 +1,127 @@
+main {
+    background-color: black;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    justify-items: left;
+    align-items: center;
+    
+    padding: 4% 8%;
+
+
+}
+
+.items {
+    margin: auto;
+    padding: 1.8%;
+}
+
+h3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 2.6rem;
+    text-align: left;
+    margin-bottom: 2%;
+
+}
+
+p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    word-wrap: calc(250px-10px);
+    text-align: left;
+    overflow: hidden;
+
+}
+
+.items {
+    position: relative;
+}
+
+.item2 {
+    position: relative;
+}
+
+.vid-1-bg {
+    z-index: 1000;
+    position: relative;
+    width: 45vw;
+}
+
+.vid-1-vid {
+    position: absolute;
+    top: 22%;
+    left: 3.1%;
+    width: 44vw;
+}
+
+.item3{
+    
+}
+
+.vid-3-bg {
+    z-index: 1000;
+    position: relative;
+    width: 45vw;
+}
+
+.vid-3-vid {
+    position: absolute;
+    top: 14%;
+    left: 21.4%;
+    width: 59%;
+}
+
+@media only screen and (max-width: 1000px) {
+   .box{
+    flex-wrap: wrap;
+   }
+  h3,p{
+    text-align: center;
+  }
+}
+  
+
+/* -------------------------------  Frequentaly asked question  ---------------------------------------- */
+
+
+.faq-box{
+    
+}
+.faq-box h3{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.faq-items span{
+    color: #fffffd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: 600; */
+    font-size: 1.4rem;
+    word-wrap: calc(250px-10px);
+    text-align: left;
+}
+
+
+.faq-items{
+    /* border: 2px solid #CBCBC9; */
+    margin: 1% 10%;
+    padding: 2% 12% 2% 4%;
+    background-color: #2d2d2d;
+}
+.plus{
+    color:#CBCBC9;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 82%;
+}
+
+main .heading-sec{
+    margin-bottom: 7%;
+    margin-top: 4%;
+}
