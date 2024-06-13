@@ -25,7 +25,7 @@ footer span{
 
 .footer-item{
     color:rgb(201, 197, 197);
-    /* padding-top: 2%; */
+    padding-top: 1%;
 }
 
 .footer-item ul li{
@@ -47,12 +47,13 @@ footer p{
     font-weight: 400;
 }
 
-@media only screen and (max-width: 600px){
-   footer p{
+@media only screen and (max-width: 1000px){
+   footer .netflix-ind{
         text-align: left;
       }
 
       *{
         font-size: 12px;
       }
+      
 }
