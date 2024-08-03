@@ -4,25 +4,28 @@
     box-sizing: border-box;
 }
 
-.main-container{
+.main-container {
     display: flex;
     justify-content: space-around;
 
-   
+
 }
 
 
-.container-box{
+.container-box {
     justify-items: center;
     align-items: center;
     margin-top: 3%;
 }
+
 header {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),
-        url('../assests/images/bg\ img.jpg');
-    height:max(800px,60vh);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("../assests/images/bg\ image\ 2\ now.jpg");
+    height: max(650px, 60vh);
     width: 100%;
-    filter: contrast(1.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    filter: contrast(1.1);
 }
 
 .netflix-logo {
@@ -46,11 +49,11 @@ header {
     border-radius: 2px;
 }
 
-.btn-icon{
+.btn-icon {
     font-size: 16px;
 }
 
-.Signin-btn{
+.Signin-btn {
     border: 1px solid red;
     font-size: 20px;
     color: white;
@@ -66,69 +69,97 @@ header {
 /* -----------------------------------Heading section csss---------------------------------------------- */
 
 
-.heading-sec{
+.heading-sec {
     margin-top: 10%;
     text-align: center;
     line-height: 55px;
 }
-.title-1{
+
+.title-1 {
     font-size: 2.8rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-weight: 900;
 
 }
-.title-2{
+
+.title-2 {
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-weight: 600;
 
 }
-.title-3{
+
+.title-3 {
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-weight: 600;
+    padding: 5px;
 
 }
-.email-inp{
+
+.email-inp {
     background: transparent;
     border: 0.5px solid #b8b8b9;
-    color:#b8b8b9;
+    color: #b8b8b9;
     font-family: sans-serif;
     font-size: 20px;
     padding: 10px 15% 14px 2%;
-    border-radius: 2px;
+    border-radius: 7px;
+    margin-left: 8px;
 }
-.email-inp::placeholder{
-    color:#b8b8b9;
+
+.email-inp::placeholder {
+    color: #b8b8b9;
 
 }
 
-.getst-btn{
+.getst-btn {
     border: 1px solid red;
     font-size: 20px;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(229 9 20);
-    padding:8px 24px 16px 33px;
+    padding: 8px 24px 16px 33px;
     border-radius: 4px;
     font-weight: 600;
     margin-left: 5px;
-   
+    margin-right: 7px;
+
 }
 
-hr{
+hr {
     border-top: 7px solid rgb(115, 114, 114);
 }
 
 
-@media only screen and (max-width: 600px){
-    .main-container{
+@media only screen and (max-width: 600px) {
+    .main-container {
         flex-wrap: wrap;
     }
-    header{
+
+    header {
         padding: 0px 1%;
     }
+}
+
+
+@media screen and (max-width:520px) {
+
+    .email-inp {
+        padding: 10px 3% 8px 2%;
+    }
+
+    .title-1 {
+        padding: 0px 5px;
+    }
+
+
+
+    .getst-btn {
+        padding: 6px 15px 8px 16px
+    }
+
 }
